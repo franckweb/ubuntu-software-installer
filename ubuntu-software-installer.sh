@@ -69,17 +69,11 @@ sudo apt install -y brave-browser
 ## simplenote
 sudo snap install simplenote
 
-## z program
-# download latest
-wget "https://raw.githubusercontent.com/rupa/z/master/z.sh" -O "~/z.sh"
-
-# add to .bashrc
-echo "source /path/to/z.sh" >> ~/.bashrc
-
-# add to .zshrc
-echo "source /path/to/z.sh" >> ~/.zshrc
-
 ## oh my zsh
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+## z program (zshrc plugin)
+# add z to zshrc plugins list:
+vi plugins=(git z)
 
 echo "Ubuntu software installation done"
