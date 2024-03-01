@@ -5,6 +5,7 @@ bash script that installs programs in Linux Ubuntu
 - vim
 - git
 - zsh
+- z (zsh plugin)
 - oh-my-zsh
 - curl
 - tmux
@@ -22,5 +23,3 @@ bash script that installs programs in Linux Ubuntu
 - slack
 - brave browser
 - simplenote
-- z
-
