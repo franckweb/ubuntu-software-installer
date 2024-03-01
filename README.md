@@ -5,6 +5,7 @@ bash script that installs programs in Linux Ubuntu
 - vim
 - git
 - zsh
+- oh-my-zsh
 - curl
 - tmux
 - tree
