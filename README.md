@@ -2,6 +2,7 @@
 bash script that installs programs in Linux Ubuntu
 
 ## programs included
+- vim
 - git
 - zsh
 - curl
