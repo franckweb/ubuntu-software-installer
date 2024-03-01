@@ -60,4 +60,7 @@ sudo apt install -y brave-browser
 ## simplenote
 sudo snap install simplenote
 
+## oh my zsh
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
 echo "Ubuntu software installation done"
