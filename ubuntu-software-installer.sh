@@ -6,7 +6,7 @@
 sudo apt-get update
 
 # base install
-sudo apt install -y git zsh curl tmux tree zip unzip p7zip-full
+sudo apt install -y vim git zsh curl tmux tree zip unzip p7zip-full
 
 ## change current user shell
 sudo chsh -s /bin/zsh $CUR_USER
