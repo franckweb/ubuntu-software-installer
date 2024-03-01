@@ -21,21 +21,30 @@ sudo apt install gnome-tweaks
 # https://dl.pstmn.io/download/version/9.31.30/linux
 
 ## docker
-# Add Docker's official GPG key:
+# docker add official GPG key:
 sudo apt-get install ca-certificates
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-# Add the repository to Apt sources:
+# docker add repository to apt sources:
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 
-# install latest docker version
+# docker install latest version
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# docker sudo permissions
+sudo usermod -aG docker ${USER}
+su - ${USER}
+
+# docker-compose
+mkdir -p ~/.docker/cli-plugins/
+curl -SL https://github.com/docker/compose/releases/download/v2.3.3/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
+chmod +x ~/.docker/cli-plugins/docker-compose
 
 ## chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
