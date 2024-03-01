@@ -15,10 +15,12 @@ bash script that installs programs in Linux Ubuntu
 - gnome-tweaks
 - postman
 - docker
+- docker-compose
 - chrome
 - vscode 
 - dbeaver
 - slack
 - brave browser
 - simplenote
+- z
 
