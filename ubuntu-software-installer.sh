@@ -54,6 +54,9 @@ sudo apt install ./google-chrome-stable_current_amd64.deb
 ## vscode 
 sudo snap install --classic code
 
+## mysql
+sudo apt install -y mysql-server
+
 ## dbeaver
 sudo snap install dbeaver-ce
 
