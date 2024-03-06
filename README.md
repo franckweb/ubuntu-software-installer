@@ -18,7 +18,8 @@ bash script that installs programs in Linux Ubuntu
 - docker
 - docker-compose
 - chrome
-- vscode 
+- vscode
+- mysql-server
 - dbeaver
 - slack
 - brave browser
