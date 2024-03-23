@@ -79,4 +79,8 @@ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O 
 # add z to zshrc plugins list:
 vi plugins=(git z)
 
+## screenshot & pinta
+sudo apt-get install pinta
+sudo apt-get install gnome-screenshot
+
 echo "Ubuntu software installation done"
